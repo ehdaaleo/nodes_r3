@@ -5,6 +5,7 @@ function sayHello(){
  console.log("hello with tech mastery ");
  console.log(10);
  console.log(5+3);
+ //
  
 
  // single line 
@@ -117,3 +118,6 @@ function sayHello(){
                   console.log("weekend");
                   break;    
   }
+
+
+  
