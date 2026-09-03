@@ -2,10 +2,13 @@ function sayHello(){
     console.log("hello");
 
 }
+sayHello();
+
 
 function printName(name){
     console.log(`hello ${name }`);
 }
+printName("jo");
 printName("rh");
 // multi  partme
 function addNumbers(first, second)
@@ -19,7 +22,7 @@ function  add(a, b ){
 }
 let result = add(6,9);
 console.log (result );
-
+const mul=(x,y)=>{return x*y};
 // arrow functaion 
 const add=(a,b)=>{return a+b;};
 
@@ -29,6 +32,13 @@ if( true)
 
     let age =22;
 }
+let numbers =[1,2,34,5];
+console.log(numbers[0]);
+numbers.push(4);
+numbers.pop();
+numbers.unshift(1);
+numbers.shift();
+
 
 let students =[" ahemd ", " elyas "," yousef ","mahmoud"];
 console.log(students[0]);
@@ -48,6 +58,11 @@ for  ( let i =0; i<students.length;i++)
 {
     console.log(students[i]);
 }
+ // for of   list 
+   for ( let num of numbers)
+   {
+    console.log(num );
+   }
 for ( let student of students)
 {
 
@@ -64,6 +79,15 @@ while (i<5)
 } // print 0 to 4
 
 // object => gruop of information realted together
+let mobile ={
+    brandName:"oop",
+    number :3,
+    SDK: 33
+}
+console.log(mobile.brandName);
+mobile.number=3;
+mobile.color="red";
+
 let student ={
     name: "elyas ",
     age:22,
@@ -112,4 +136,5 @@ const age2= members.age;
 const {nam, ag }=members;
 // spreed operatir 
 let numbers1=[1,2,3];
+let number3=[...numbers1,46,678,7];
 let numbers2=[...numbers1,4,5];
